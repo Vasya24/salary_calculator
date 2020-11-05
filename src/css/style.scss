@@ -9,6 +9,26 @@
     font-family: LabGrotesque;
 }
 
-li {
-    list-style: none;
+#wrapper {
+    width: 100%;
+   text-align: center;
+   height: 50%;
+   position: absolute;
+   top: 35%;
 }
+
+ .gross, .net {
+     #gross_input, #net_input {
+         width: 20vw;
+         height: 30px;
+         line-height: 30px;
+         border: .3px solid #cacaca;
+         border-radius: 4px;
+         box-shadow:2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+         margin-bottom: 1%;
+         padding-left: 1%
+     }
+     #net_input {
+        margin-top: 20px
+     }
+ }
